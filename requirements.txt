@@ -1,0 +1,6 @@
+pylint
+python-dotenv
+requests
+pandas
+openpyxl
+colorama
