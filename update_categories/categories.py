@@ -44,9 +44,9 @@ def creation_payload(category, category_id=None):
     return payload
 
 
-def children_function(category, father, category_id):
-    print("\033[94m  begin hijo: {} his father is: {} with id of father: {}  \033[0m".format(
-        category["name"], father['name'], father['id']))
+def children_function(category, parent, category_id):
+    print("\033[94m  begin child: {} its parent is: {} with parent id: {}  \033[0m".format(
+        category["name"], parent['name'], parent['id']))
 
     # creation payload
     payload = creation_payload(category, category_id)
@@ -69,12 +69,12 @@ def children_function(category, father, category_id):
             children_function(childrens[children], category, category_id)
 
     # end map childrens
-    print("\x1b[1;33m  end hijo: {} his father is: {} with id of father: {}  \033[0m".format(
-        category["name"], father['name'], father['id']))
+    print("\x1b[1;33m  end child: {} its parent is: {} with parent id: {}  \033[0m".format(
+        category["name"], parent['name'], parent['id']))
 
 
 for category in categories:
-    print("\033[92m  ***************** begin padre: {}  ***************** \033[0m".format(category["name"]))
+    print("\033[92m  ***************** begin parent: {}  ***************** \033[0m".format(category["name"]))
 
     # creation payload
     payload = creation_payload(category)
@@ -82,7 +82,7 @@ for category in categories:
     payload = json.dumps(payload)
     response = requests.request('POST', url_create_category.format(
         "vetrob2c"), data=payload, headers=headers)
-    print(response.text)
+
     response = response.json()
     # save category_id
     category_id = response['Id']
@@ -96,4 +96,4 @@ for category in categories:
             children_function(childrens[children], category, category_id)
     # end map childrens
 
-    print("\033[92m ***************** end padre: {} *********************** \033[0m".format(category["name"]))
+    print("\033[92m ***************** end parent: {} *********************** \033[0m".format(category["name"]))
