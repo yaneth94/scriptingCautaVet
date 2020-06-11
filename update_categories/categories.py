@@ -23,8 +23,8 @@ url_create_category = "https://{}.vtexcommercestable.com.br/api/catalog/pvt/cate
 response = requests.request("GET", url_categories.format("vetro"), headers=headers_master)
 categories = response.json()
 
-def children_function(category,father):
-    print("\033[94m  begin hijo: {} his father is: {} with id of father: {}  \033[94m".format(category["name"],father['name'],father['id']))
+def children_function(category,father,category_id):
+    print("\033[94m  begin hijo: {} his father is: {} with id of father: {}  \033[0m".format(category["name"],father['name'],father['id']))
     #save category
     payload = {}
     payload['Name'] = category["name"]
@@ -33,33 +33,35 @@ def children_function(category,father):
     payload['Description'] = category["MetaTagDescription"]
     payload['AdWordsRemarketingCode'] = None
     payload['LomadeeCampaignCode'] = None
-    payload['FatherCategoryId'] = father["id"]
-    payload['GlobalCategoryId'] = category["id"] # category id 
+    payload['FatherCategoryId'] = category_id
+    payload['GlobalCategoryId'] = None
     payload['ShowInStoreFront'] = True
     payload['IsActive'] = True
     payload['ActiveStoreFrontLink'] = True
     payload['ShowBrandFilter'] = True
     payload['Score']= None
-    payload['StockKeepingUnitSelectionMode']= None
+    payload['StockKeepingUnitSelectionMode']= "SPECIFICATION"
 
    
     #save category
     payload = json.dumps(payload)
-    print(payload)
-    """
+    #print(payload)
     response = requests.request('POST', url_create_category.format("vetrob2c"), data=payload, headers=headers)
     print(response.text)
-    """
+    response = response.json()
+    #save category_id
+    category_id = response['Id']
+   
     #end category
 
     # map childrens
     if category['hasChildren']:
         childrens = category["children"]
         for children in range(0,len(childrens)):
-            children_function(childrens[children],category)
+            children_function(childrens[children],category,category_id)
 
     # end map childrens
-    print("\x1b[1;33m  end hijo: {} his father is: {} with id of father: {}  \x1b[1;33m".format(category["name"],father['name'],father['id']))
+    print("\x1b[1;33m  end hijo: {} his father is: {} with id of father: {}  \033[0m".format(category["name"],father['name'],father['id']))
 
 for category in categories:
     print("\033[92m  ***************** begin padre: {}  ***************** \033[0m".format(category["name"]))
@@ -71,27 +73,29 @@ for category in categories:
     payload['AdWordsRemarketingCode'] = None
     payload['LomadeeCampaignCode'] = None
     payload['FatherCategoryId'] = None
-    payload['GlobalCategoryId'] = category["id"] # no se
+    payload['GlobalCategoryId'] = None # no se
     payload['ShowInStoreFront'] = True
     payload['IsActive'] = True
     payload['ActiveStoreFrontLink'] = True
     payload['ShowBrandFilter'] = True
     payload['Score']= None
-    payload['StockKeepingUnitSelectionMode']= None
+    payload['StockKeepingUnitSelectionMode']= "SPECIFICATION"
 
     #save category
     payload = json.dumps(payload)
-    """
     response = requests.request('POST', url_create_category.format("vetrob2c"), data=payload, headers=headers)
     print(response.text)
-    """
+    response = response.json()
+    #save category_id
+    category_id = response['Id']
+    
     #end save category
 
     # map childrens
     if category['hasChildren']:
         childrens = category["children"]
         for children in range(0,len(childrens)):
-            children_function(childrens[children],category)
+            children_function(childrens[children],category, category_id)
     #end map childrens
         
     print("\033[92m ***************** end padre: {} *********************** \033[0m".format(category["name"]))
