@@ -23,9 +23,7 @@ url_create_category = "https://{}.vtexcommercestable.com.br/api/catalog/pvt/cate
 response = requests.request("GET", url_categories.format("vetro"), headers=headers_master)
 categories = response.json()
 
-def children_function(category,father,category_id):
-    print("\033[94m  begin hijo: {} his father is: {} with id of father: {}  \033[0m".format(category["name"],father['name'],father['id']))
-    #save category
+def creation_payload(category, category_id = None):
     payload = {}
     payload['Name'] = category["name"]
     payload['Keywords'] = ""
@@ -41,8 +39,13 @@ def children_function(category,father,category_id):
     payload['ShowBrandFilter'] = True
     payload['Score']= None
     payload['StockKeepingUnitSelectionMode']= "SPECIFICATION"
+    return payload
 
-   
+def children_function(category,father,category_id):
+    print("\033[94m  begin hijo: {} his father is: {} with id of father: {}  \033[0m".format(category["name"],father['name'],father['id']))
+
+    #creation payload
+    payload = creation_payload(category,category_id)
     #save category
     payload = json.dumps(payload)
     #print(payload)
@@ -65,22 +68,9 @@ def children_function(category,father,category_id):
 
 for category in categories:
     print("\033[92m  ***************** begin padre: {}  ***************** \033[0m".format(category["name"]))
-    payload = {}
-    payload['Name'] = category["name"]
-    payload['Keywords'] = ""
-    payload['Title'] = category["Title"]
-    payload['Description'] = category["MetaTagDescription"]
-    payload['AdWordsRemarketingCode'] = None
-    payload['LomadeeCampaignCode'] = None
-    payload['FatherCategoryId'] = None
-    payload['GlobalCategoryId'] = None # no se
-    payload['ShowInStoreFront'] = True
-    payload['IsActive'] = True
-    payload['ActiveStoreFrontLink'] = True
-    payload['ShowBrandFilter'] = True
-    payload['Score']= None
-    payload['StockKeepingUnitSelectionMode']= "SPECIFICATION"
-
+    
+    #creation payload
+    payload = creation_payload(category)
     #save category
     payload = json.dumps(payload)
     response = requests.request('POST', url_create_category.format("vetrob2c"), data=payload, headers=headers)
