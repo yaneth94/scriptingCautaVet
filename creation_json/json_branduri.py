@@ -1,9 +1,5 @@
-from pathlib import Path
-import os
-
-path_branduri = Path(__file__).parent.absolute() / 'branduri'
-
 branduri = [
+    # row 1
     {
         "name": "A.G CHIM",
         "row": 1,
@@ -34,6 +30,7 @@ branduri = [
         "column": 5,
         "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
     },
+    # row 2
     {
         "name": "ALLFLEX",
         "row": 2,
@@ -44,13 +41,13 @@ branduri = [
         "name": "Animedica",
         "row": 2,
         "column": 2,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-2_b2b_krqsdx.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-2.gif"
     },
     {
         "name": "Antibiotica S.A",
         "row": 2,
         "column": 3,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014962/vetroB2B/branduri/branduri-3_b2b_i0zqhb.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014962/vetroB2B/branduri/branduri-3.gif"
     },
     {
         "name": "APARATURA SI CONSUMABILE",
@@ -62,8 +59,9 @@ branduri = [
         "name": "AST Farma",
         "row": 2,
         "column": 5,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-4_b2b_dvwwyk.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-4.gif"
     },
+    # row 3
     {
         "name": "AVENTIX",
         "row": 3,
@@ -80,13 +78,13 @@ branduri = [
         "name": "B.Braun",
         "row": 3,
         "column": 3,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-5_b2b_vtmahc.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-5.gif"
     },
     {
         "name": "Bast-The Chemical Company",
         "row": 3,
         "column": 4,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-6_b2b_bbhbpu.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014363/vetroB2B/branduri/branduri-6.gif"
     },
     {
         "name": "Bayer",
@@ -94,6 +92,7 @@ branduri = [
         "column": 5,
         "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
     },
+    # row 4
     {
         "name": "Bayer Environmental Science",
         "row": 4,
@@ -104,7 +103,7 @@ branduri = [
         "name": "Beohringer Ingelheim",
         "row": 4,
         "column": 2,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-8_b2b_ppjuea.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-8.gif"
     },
     {
         "name": "BIOCANINA",
@@ -116,7 +115,7 @@ branduri = [
         "name": "Bioveta",
         "row": 4,
         "column": 4,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-9_b2b_h4yjxu.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-9.gif"
     },
     {
         "name": "BIO-X DIAGNOSTICS",
@@ -124,6 +123,7 @@ branduri = [
         "column": 5,
         "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
     },
+    # row 5
     {
         "name": "Catalysis",
         "row": 5,
@@ -134,7 +134,7 @@ branduri = [
         "name": "Cenavisa",
         "row": 5,
         "column": 2,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-10_b2b_f4xoxk.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-10.gif"
     },
     {
         "name": "CEVA POULTRY",
@@ -152,8 +152,9 @@ branduri = [
         "name": "CEVA Sante Animale",
         "row": 5,
         "column": 5,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-11_b2b_j6gkkh.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592019916/vetroB2B/branduri/branduri-11.gif"
     },
+    # row 6
     {
         "name": "CEVA SWINE",
         "row": 6,
@@ -170,108 +171,80 @@ branduri = [
         "name": "Cp-Pharma",
         "row": 6,
         "column": 3,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592087063/vetroB2B/branduri/branduri-12.gif"
     },
     {
         "name": "Crida Pharm",
         "row": 6,
         "column": 4,
-        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592087063/vetroB2B/branduri/branduri-13.gif"
     },
     {
         "name": "Dechra",
         "row": 6,
         "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592087064/vetroB2B/branduri/branduri-14.gif"
+    },
+    # row 7
+    {
+        "name": "Dow Agroscience",
+        "row": 7,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592087992/vetroB2B/branduri/branduri-15.gif"
+    },
+    {
+        "name": "Dr.Seidel",
+        "row": 7,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592087992/vetroB2B/branduri/branduri-18.gif"
+    },
+    {
+        "name": "DRN",
+        "row": 7,
+        "column": 3,
         "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
-    }
-
-
+    },
+    {
+        "name": "DSM Food Specialities",
+        "row": 7,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Dutch Pharm",
+        "row": 7,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592088335/vetroB2B/branduri/branduri-19.gif"
+    },
+    # row 8
+    {
+        "name": "DYNTEC",
+        "row": 8,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "ECOMOLD INVEST",
+        "row": 8,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "EICKEMEYER KG",
+        "row": 8,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Elanco",
+        "row": 8,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Erfar Pharmaceuticals",
+        "row": 8,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
 ]
-
-list_brands_text = []
-
-list_brands_image = []
-
-list_brands_col = []
-
-for brand in range(0, len(branduri)):
-    brands = branduri[brand]
-    print(brands)
-    # creation rich-text for branduri
-    name_rich = "rich-text#branduri-col-row-{}-{}".format(
-        brands['column'], brands['row'])
-
-    brand_rich_text = {
-        name_rich: {
-            "props": {
-                "text": "**{}**".format(brands['name']),
-                "textAlignment": "CENTER",
-                "textPosition": "CENTER"
-            }
-        }
-    }
-    brand_rich_text = '''{}'''.format(
-        str(brand_rich_text)[1:-1]).replace("'", '"')
-
-    list_brands_text.append(brand_rich_text)
-
-    # creation image for branduri
-    name_image = "image#branduri-{}-{}".format(brands['column'], brands['row'])
-
-    brand_image = {
-        name_image: {
-            "props": {
-                "src": "{}".format(brands['image']),
-                "maxHeight": 200
-            }
-        }
-    }
-    brand_image = '''{}'''.format(
-        str(brand_image)[1:-1]).replace("'", '"')
-
-    list_brands_image.append(brand_image)
-
-    # creation flex-col for branduri
-    name_col = "flex-layout.col#branduri-col-row-{}-{}".format(
-        brands['column'], brands['row'])
-    brand_col = {
-        name_col: {
-            "children": [name_image, name_rich],
-            "props": {
-                "paddingLeft": 5,
-                "paddingRight": 5
-            }
-        }
-    }
-    # print(name_col)
-    brand_col = '''{}'''.format(
-        str(brand_col)[1:-1]).replace("'", '"')
-    list_brands_col.append(brand_col)
-
-
-#list_brands_text = str(list_brands_text).replace("'", '')
-# print(list_brands_text)
-
-def parse_strings(list_brand):
-    parse_brands = str(list_brand).replace("'", '')[1:-1]
-    parse_brands = "{ %s }" % (parse_brands)
-    return parse_brands
-
-
-path_image = path_branduri / 'image_branduri.jsonc'
-parse_brands_image = parse_strings(list_brands_image)
-file = open(path_image, "wt")
-file.write(parse_brands_image)
-file.close()
-
-path_text = path_branduri / 'text_branduri.jsonc'
-parse_brands_text = parse_strings(list_brands_text)
-file = open(path_text, "wt")
-file.write(parse_brands_text)
-file.close()
-
-path_flex_col = path_branduri / 'flex_col_branduri.jsonc'
-parse_brands_col = parse_strings(list_brands_col)
-file = open(path_flex_col, "wt")
-file.write(parse_brands_col)
-file.close()
