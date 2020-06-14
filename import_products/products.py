@@ -43,11 +43,11 @@ for brand in brands_api:
 
 for brand_data in product_brand_excel:
     if brand_data == brands_dict.keys():
-        #print("\033[92m TIENE {} \033[0m".format(brand['id']))
+        # print("\033[92m TIENE {} \033[0m".format(brand['id']))
         products_id_brand.append(brands_dict[brand_data])
         products_brands_name.append(brand_data)
     else:
-        #print("\033[94m NO TIENE \033[0m")
+        # print("\033[94m NO TIENE \033[0m")
         products_id_brand.append('2000012')
         products_brands_name.append('PROVISIONAL')
 
@@ -61,9 +61,9 @@ for name in products_name:
         str, range(0, 10)) else "" for c in name)
     # print(stringWithoutNumbers)
     string_without_caracter_special = string_without_numbers.translate(
-        {ord(c): "" for c in "!@#$%^&*()[];:,./<>?\|`~-=_+"})
+        {ord(c): "" for c in """!@#$%^&*()[];:,./<>?\|`~-=_+,' " """})
     string_lower = string_without_caracter_special.lower()
-    link = ' '.join(string_lower.split())
+    #link = ' '.join(string_lower.split())
     link = string_lower.replace(" ", "-")
     products_captions_link.append(link)
 
@@ -71,7 +71,7 @@ for name in products_name:
 
 # save products
 
-print("\033[92m Begin creation of file \033[0m")
+print("\033[92m Begin creation file \033[0m")
 df = pd.DataFrame({'_SkuId (Not changeable)': None,
                    '_SkuName': products_name,
                    '_ActivateSkuIfPossible': 'YES',
@@ -126,4 +126,4 @@ df = df[['_SkuId (Not changeable)', '_SkuName', '_ActivateSkuIfPossible', '_SkuI
 writer = ExcelWriter(path_products)
 df.to_excel(writer, 'products', index=False)
 writer.save()
-print("\033[92m Ended creation of file \033[0m")
+print("\033[92m Ended creation file \033[0m")
