@@ -247,4 +247,253 @@ branduri = [
         "column": 5,
         "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
     },
+    # row 9
+    {
+        "name": "EUROTECH",
+        "row": 9,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Exclusion",
+        "row": 9,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099280/vetroB2B/branduri/branduri-20.gif"
+    },
+    {
+        "name": "FORTIS CONSULT",
+        "row": 9,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Fresenius Kabi",
+        "row": 9,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099280/vetroB2B/branduri/branduri-21.gif"
+    },
+    {
+        "name": "FROMASE",
+        "row": 9,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 10
+    {
+        "name": "G.G.T FOOD ADDITIVES",
+        "row": 10,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "GAMMA VET",
+        "row": 10,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "GolashPharma",
+        "row": 10,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099655/vetroB2B/branduri/branduri-22.gif"
+    },
+    {
+        "name": "ICF Prodotti Veterinari",
+        "row": 10,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099280/vetroB2B/branduri/branduri-23.gif"
+    },
+    {
+        "name": "IDT Biologika",
+        "row": 10,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 11
+    {
+        "name": "Inmmunovet",
+        "row": 11,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Industria Italiana Integratori Trei",
+        "row": 11,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099280/vetroB2B/branduri/branduri-24.gif"
+    },
+    {
+        "name": "Innovet",
+        "row": 11,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Intermag",
+        "row": 11,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099280/vetroB2B/branduri/branduri-25.gif"
+    },
+    {
+        "name": "Intervet",
+        "row": 11,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099951/vetroB2B/branduri/branduri-26.gif"
+    },
+    # row 12
+    {
+        "name": "IRIALEX MIXT",
+        "row": 12,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Janssen Pharmaceutica",
+        "row": 12,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-27.gif"
+    },
+    {
+        "name": "KELLA",
+        "row": 12,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-28.gif"
+    },
+    {
+        "name": "Kepro",
+        "row": 12,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-29.gif"
+    },
+    {
+        "name": "KEPRO HOLLAND",
+        "row": 12,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 13
+    {
+        "name": "Kilco",
+        "row": 13,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-30.gif"
+    },
+    {
+        "name": "Kollant S.A",
+        "row": 13,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-31.gif"
+    },
+    {
+        "name": "LaVet Pharmaceuticals",
+        "row": 13,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-32.gif"
+    },
+    {
+        "name": "Lintbells",
+        "row": 13,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-33.gif"
+    },
+    {
+        "name": "Makhtesim Agan",
+        "row": 13,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 14
+    {
+        "name": "MARAVET SRL",
+        "row": 14,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Merial",
+        "row": 14,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592101190/vetroB2B/branduri/branduri-34.gif"
+    },
+    {
+        "name": "Monge",
+        "row": 14,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592101190/vetroB2B/branduri/branduri-35.gif"
+    },
+    {
+        "name": "MonteroVet",
+        "row": 14,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "MSD COMPANION ANIMALS",
+        "row": 14,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 15
+    {
+        "name": "MSD POULTRY",
+        "row": 15,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "MSD RUMANANTS",
+        "row": 15,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "MSD SWINE",
+        "row": 15,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "OLMIX",
+        "row": 15,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "OVER GROUP",
+        "row": 15,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 16
+    {
+        "name": "PAMAS",
+        "row": 16,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "PANVET",
+        "row": 16,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "PARAFARMACEUTICE",
+        "row": 16,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Phylaxia Pharma",
+        "row": 16,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "PRIMA",
+        "row": 16,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+
 ]

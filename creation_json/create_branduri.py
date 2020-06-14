@@ -13,7 +13,7 @@ list_brands_col = []
 
 list_brands_row = []
 
-for row in range(1, 8):
+for row in range(1, 17):
     name_row = "flex-layout.row#branduri-row-{}".format(row)
     brand_row = {
         name_row: {
@@ -74,7 +74,8 @@ for brand in range(0, len(branduri)):
             "children": [name_image, name_rich],
             "props": {
                 "paddingLeft": 5,
-                "paddingRight": 5
+                "paddingRight": 5,
+                "blockClass": "column-branduri"
             }
         }
     }
