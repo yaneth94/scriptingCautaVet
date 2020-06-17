@@ -495,5 +495,160 @@ branduri = [
         "column": 5,
         "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
     },
+    # row 17
+    {
+        "name": "PRODUSE AGRAPLAN",
+        "row": 17,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Promedivet",
+        "row": 17,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-36.gif"
+    },
+    {
+        "name": "REPOXIM SRL",
+        "row": 17,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Richter Pharma",
+        "row": 17,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-37.gif"
+    },
+    {
+        "name": "Romvac",
+        "row": 17,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 18
+    {
+        "name": "RovalMed",
+        "row": 18,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Sanofi Aventis",
+        "row": 18,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "SCHIPPERS",
+        "row": 18,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "SOLAREX",
+        "row": 18,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "SOLVIT",
+        "row": 18,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 19
+    {
+        "name": "SP Veterinaria",
+        "row": 19,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-38.gif"
+    },
+    {
+        "name": "Stangest",
+        "row": 19,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-39.gif"
+    },
+    {
+        "name": "SUPERFARMLAND",
+        "row": 19,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Syva Laboratorios",
+        "row": 19,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592239499/vetroB2B/branduri/branduri-40.gif"
+    },
+    {
+        "name": "Terapia Ranbaxy",
+        "row": 19,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 20
+    {
+        "name": "TESO SPEC",
+        "row": 20,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "TZMO",
+        "row": 20,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-41.gif"
+    },
+    {
+        "name": "VARAT",
+        "row": 20,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-42.gif"
+    },
+    {
+        "name": "VET DIAGNOSTIC SRL",
+        "row": 20,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "VET EXPERT",
+        "row": 20,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    # row 21
+    {
+        "name": "VETERIN DISTRIBUTION",
+        "row": 21,
+        "column": 1,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "VMD",
+        "row": 21,
+        "column": 2,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-43.gif"
+    },
+    {
+        "name": "WAHL",
+        "row": 21,
+        "column": 3,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Zentiva",
+        "row": 21,
+        "column": 4,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif"
+    },
+    {
+        "name": "Zoetis",
+        "row": 21,
+        "column": 5,
+        "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-44.gif"
+    }
 
 ]
