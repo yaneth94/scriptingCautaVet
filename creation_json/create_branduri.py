@@ -57,7 +57,10 @@ for brand in range(0, len(branduri)):
         name_image: {
             "props": {
                 "src": "{}".format(brands['image']),
-                "maxHeight": 200
+                "maxHeight": 200,
+                "link": {
+                    "url": "{}".format(brands['url'])
+                }
             }
         }
     }
