@@ -93,6 +93,7 @@ for product in list_product:
             "id_produs": product['id_produs'],
             "den_produs": sku_api['SkuName'],
             "cota_tva_ies": product['cota_tva_ies'],
+            "product_id": sku_api['ProductId'],
             "sku_id": filter_vtex_dict[product['id_produs']]
         }
         products_nexus_vtex.append(produs)
@@ -114,12 +115,13 @@ products_tva_dict = {}
 for product in products_nexus_vtex:
     # asignacion
     cota_tva = product['cota_tva_ies']
-    name = product['den_produs']
+    #name = product['den_produs']
+    product_id = product['product_id']
     if not cota_tva in products_tva_dict.keys():
         products_tva_dict[cota_tva] = []
-        products_tva_dict[cota_tva].append(name)
+        products_tva_dict[cota_tva].append(product_id)
     else:
-        products_tva_dict[cota_tva].append(name)
+        products_tva_dict[cota_tva].append(product_id)
 
 print("\x1b[1;33m  ****** Ended Classification by tva ****** \033[0m")
 
@@ -127,11 +129,22 @@ print("\033[92m   ****** Begin Create txt file ****** \033[0m")
 
 path_products = Path(__file__).parent.absolute() / 'products'
 for tva in products_tva_dict.keys():
-
-    path_product = path_products / 'tax-{}.txt'.format(tva)
+    chunck = 1
+    path_file = 'tax-{}-{}.txt'
+    path_product = path_products / path_file.format(tva, 1)
     file = open(path_product, "wt")
-    for line in products_tva_dict[tva]:
-        file.write(line + '\n')
+    # quitando repetidos
+    products_tva = list(set(products_tva_dict[tva]))
+    # terminando repetidos
+    numero_product = 0
+    for line in products_tva:
+        numero_product = numero_product + 1
+        if numero_product % 199 == 0:
+            chunck = chunck+1
+            path_product = path_products/path_file.format(tva, chunck)
+            file = open(path_product, "wt")
+
+        file.write(str(line) + '\n')
         # print(line)
     file.close()
 
